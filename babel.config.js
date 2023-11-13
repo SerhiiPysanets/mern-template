@@ -3,7 +3,7 @@ export default {
     '@babel/env',
     '@babel/react'
   ],
-  plagin: [
-    '@babel/plagin-transform-runtimegit '
+  plugins: [
+    "@babel/plugin-transform-runtime"
   ]
 }

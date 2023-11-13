@@ -2,7 +2,7 @@ import React from "react";
 
 const Root = () => {
   return (
-    <div>This is Root</div>
+    <h1>This is Root</h1>
   )
 }
 
