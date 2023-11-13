@@ -6,8 +6,8 @@ import CssMinimizerPlugin from 'css-minimizer-webpack-plugin'
 const config = {
   mode: 'production',
   optimization: {
-    minimaze: true,
-    minimazer: [
+    minimize: true,
+    minimizer: [
       new TerserPlugin({
         parallel: true,
         terserOptions: {
