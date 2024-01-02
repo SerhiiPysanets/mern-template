@@ -16,5 +16,5 @@ export function Html({ body }) {
   </body>
 
   </html>
-  `;
+  `
 }

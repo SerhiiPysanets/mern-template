@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 const Root = () => {
   return (
@@ -10,7 +10,7 @@ const Root = () => {
         <Route path="*" element={<h3>404</h3>} />
       </Routes>
     </BrowserRouter>
-  );
-};
+  )
+}
 
-export default Root;
+export default Root
