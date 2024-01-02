@@ -6,8 +6,8 @@ const Root = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<div>Tith is React Router v6 </div>} />
-        <Route path='/test' element={<div>Tith is Test </div>} />
+        <Route path='/' element={<div>Thit is React Router v6 </div>} />
+        <Route path='/test' element={<div>Thit is Test </div>} />
         <Route path='*' element={<h3>404</h3>} />
       </Routes>
     </BrowserRouter>
