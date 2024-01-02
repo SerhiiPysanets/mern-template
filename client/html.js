@@ -1,4 +1,4 @@
-export function Html({body}) {
+export function Html({ body }) {
   return `
   <!doctype html>
     <html lang="en">
@@ -16,5 +16,5 @@ export function Html({body}) {
   </body>
 
   </html>
-  `
+  `;
 }
