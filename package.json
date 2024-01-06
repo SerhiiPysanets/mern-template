@@ -10,6 +10,7 @@
     "watch:client": "webpack serve --config webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config webpack.prod.js --progress --profile",
     "start": "cross-env NODE_ENV=production & node start",
+    "prettier": "prettier './client/**/*.js' './client/**/*.jsx' './server/**/*.js' --write",
     "heroku-postbuild": "yarn run build"
   },
   "dependencies": {
