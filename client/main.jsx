@@ -7,4 +7,4 @@ const target = document.getElementById('root')
 
 const root = createRoot(target)
 
-root.render(<Root/ >)
+root.render(<Root />)

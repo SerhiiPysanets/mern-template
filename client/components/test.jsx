@@ -10,7 +10,6 @@ const Test = () => {
       </div>
     </>
   )
-
 }
 
 // Test.propTypes = {}

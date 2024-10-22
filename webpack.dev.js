@@ -1,8 +1,6 @@
 import { merge } from 'webpack-merge'
 import common from './webpack.common.js'
 
-const PORT = 8080
-
 const config = {
   mode: 'development',
   optimization: {
@@ -12,7 +10,7 @@ const config = {
     hot: true,
     historyApiFallback: true,
     port: 8081,
-    host: 'localhost',
+    host: '0.0.0.0',
     client: {
       overlay: {
         warnings: false,
@@ -20,8 +18,8 @@ const config = {
       }
     },
     proxy: {
-      context: ['/api'],
-      target: `http://localhost:${PORT}`
+      context: ['/api', '/auth', '/ws', '/favicon.ico'],
+      target: 'http://0.0.0.0:8080'
     }
   }
 }
